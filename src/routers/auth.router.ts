@@ -22,7 +22,7 @@ import {
 export const authRouter = Router();
 
 const limiter = ipLimit({
-  requestsCountLimit: 5,
+  requestsCountLimit: 500,
   timeLimitSec: 10,
 });
 
